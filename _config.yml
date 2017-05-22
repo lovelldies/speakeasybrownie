@@ -18,7 +18,6 @@ email: lovelldies@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An Indie band from India.
 baseurl: "/speakeasybrownie" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lovelldies
 github_username:  lovelldies
 
