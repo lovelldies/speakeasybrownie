@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Indie Band from India!">
+
+  {% if page.title %}
+    <title>{{ page.title }} &middot; SpeakEasy Brownie</title>
+  {% else %}
+    <title>SpeakEasy Brownie &#8211; Indie Band from India</title>
+  {% endif %}
+  
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon-big-128x106.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/socicon/css/socicon.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/mobirise/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/dropdown-menu/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/mobirise-gallery/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/mobirise-slider/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  <script src="{{ site.baseurl }}/assets/web/{{ site.baseurl }}/assets/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+  <section id="dropdown-menu-j">
+    <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="{{ site.baseurl }}" class="navbar-logo"><img src="{{ site.baseurl }}/assets/images/favicon-big-153x128.png" alt="SpeakEasy Brownie" title="SpeakEasy Brownie - Homepage"></a>
+          <a class="text-white" href="{{ site.baseurl }}">SPEAKEASY BROWNIE</a>
+        </div>
+
+        <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+          <div class="hamburger-icon"></div>
+        </button>
+
+        <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
+          <li class="nav-item"><a class="nav-link link" href="{{ site.baseurl }}/#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link link" href="{{ site.baseurl }}/#gallery">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link link" href="{{ site.baseurl }}/#connect">CONNECT</a></li>
+          <li class="nav-item"><a class="nav-link link" href="{{ site.baseurl }}/lyrics">MUSIC &amp; LYRICS</a></li>
+          <li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="{{ site.baseurl }}">HOME</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  {{ content }}
+
+  <footer>
+    <center><p>&copy; 2017 {{ site.title }} &middot; Website by: <a href="http://www.lovelldsouza.com" target="_blank">Lovell D'souza</a>.</p></center>
+  </footer>
+  <script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="{{ site.baseurl }}/assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="{{ site.baseurl }}/assets/mobirise/js/script.js"></script>
+  <script src="{{ site.baseurl }}/assets/dropdown-menu/script.js"></script>
+  <script src="{{ site.baseurl }}/assets/mobirise-gallery/script.js"></script>
+</body>
+</html>

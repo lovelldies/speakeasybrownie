@@ -3,10 +3,40 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,700);
 
 
-
-
-
-
+.btn {
+  border-width: 1px;
+}
+.chorus {
+  font-weight: 500;
+}
+#lyrics .jumbotron {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 20% 0 15% 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+.mbr-header__text {
+  font-size: 3em;
+}
+.mbr-section__container--isolated {
+  padding-top: 0;
+}
+.navbar-brand {
+  font-size: 2.5em;
+}
+footer {
+  border-top: 1px solid #eee;
+  padding: 2em 0 1em 0;
+}
+.song {
+  font-size: large;
+}
+.song p {
+  margin-bottom: 2em;
+}
 
 #header4-k H1 {
   font-family: 'Oswald', sans-serif;
@@ -161,7 +191,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header4-0 H1 {
-  font-size: 80px;
+  font-size: 20rem;
+  line-height: 10rem;
   text-align: center;
   font-family: 'TrashHand', sans-serif;
 }
@@ -222,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #dropdown-menu-j .nav .link,
 #dropdown-menu-j .dropdown-item {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #ffffff;
   font-family: 'TrashHand', sans-serif;
 }
