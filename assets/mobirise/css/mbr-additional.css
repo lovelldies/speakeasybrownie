@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,700);
 
 
 
@@ -7,12 +8,12 @@
 
 
 
-
-
-#header4-0 H1 {
-  font-size: 80px;
-  text-align: center;
+#header4-k H1 {
   font-family: 'Oswald', sans-serif;
+}
+#header4-k P {
+  text-align: center;
+  font-size: 60px;
 }
 #msg-box3-1 .mbr-header .mbr-header__text {
   text-align: center;
@@ -70,6 +71,160 @@
   font-size: 1em;
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
+}
+#dropdown-menu-j .navbar,
+#dropdown-menu-j .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-j .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-j .dropdown-menu a:hover,
+#dropdown-menu-j .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-j .navbar-toggler {
+  color: #ffffff;
+}
+#content5-l .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-l .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-l .mbr-article {
+  color: #fff;
+}
+
+
+#dropdown-menu-m .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-m .navbar-brand a {
+  font-family: 'Oswald', sans-serif;
+}
+#dropdown-menu-m .nav .link,
+#dropdown-menu-m .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#dropdown-menu-m .navbar,
+#dropdown-menu-m .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-m .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-m .dropdown-menu a:hover,
+#dropdown-menu-m .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-m .navbar-toggler {
+  color: #ffffff;
+}
+#content5-n .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-n .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-n .mbr-article {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'TrashHand';
+  src: url('TrashHand.ttf');
+}
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'TrashHand';
+}
+
+#header4-0 H1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'TrashHand', sans-serif;
+}
+#about .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'TrashHand', sans-serif;
+  font-size: 46px;
+}
+#about .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#about .mbr-article P {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.mbr-buttons {
+  margin: 0px 0 13px 0;
+}
+#msg-box3-e .mbr-header .mbr-header__text {
+  text-align: center;
+  font-family: 'TrashHand', sans-serif;
+}
+#msg-box3-e .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#gallery .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'TrashHand', sans-serif;
+}
+#gallery .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#music-lyrics .mbr-header__text {
+  color: #252525;
+  font-family: 'TrashHand', sans-serif;
+}
+#music-lyrics .mbr-header__subtext {
+  color: #ffffff;
+}
+#music-lyrics .mbr-article {
+  color: #252525;
+}
+#connect .mbr-header__text {
+  font-family: 'TrashHand', sans-serif;
+  text-align: right;
+  color: #ffffff;
+}
+#dropdown-menu-j .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-j .navbar-brand a {
+  font-family: 'TrashHand', sans-serif;
+}
+#dropdown-menu-j .nav .link,
+#dropdown-menu-j .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'TrashHand', sans-serif;
 }
 #dropdown-menu-j .navbar,
 #dropdown-menu-j .dropdown-menu {
