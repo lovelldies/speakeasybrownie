@@ -9,7 +9,8 @@
 .chorus {
   font-weight: 500;
 }
-#lyrics .jumbotron {
+#lyrics .jumbotron,
+#band .jumbotron {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,6 +18,9 @@
   padding: 20% 0 15% 0;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
+}
+.jumbotron h1 {
+  font-size: 6em;
 }
 .mbr-header__text {
   font-size: 3em;
@@ -37,6 +41,7 @@ footer {
 .song p {
   margin-bottom: 2em;
 }
+
 
 #header4-k H1 {
   font-family: 'Oswald', sans-serif;
