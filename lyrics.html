@@ -17,9 +17,9 @@ permalink: /lyrics/
   <div class="container" style="margin-bottom: 50px;">
     <div class="row">
       {% for post in site.posts %}
-      <div class="col-md-4">
+      <div class="col-md-4" style="padding-bottom: 50px;">
         <h2>{{ post.title }}</h2>
-        <p>{{ post.description }}</p>
+        <p style="margin:20px 0;">{{ post.description }}</p>
         <p><a class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" role="button">View &raquo;</a></p>
       </div>
       {% endfor %}

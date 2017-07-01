@@ -5,7 +5,14 @@ description: Lorem Ipsum has been the industry's standard dummy text ever since 
 bgimg: slide3.jpg
 permalink: /band/
 ---
-
+<style type="text/css">
+.band-member-div {
+  margin: 50px 0;
+}
+.band-member-text {
+  margin-top: 5%;
+}
+</style>
 <div id="band">
   <div class="jumbotron" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.bgimg }}');">
     <div class="container">
@@ -14,14 +21,61 @@ permalink: /band/
     </div>
   </div>
   <div class="container" style="margin-bottom: 50px;">
-    <div class="row">
-
-        <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-        <h2 class="featurette-heading">The Second Heading
-            <span class="text-muted">Is Pretty Cool Too.</span>
+    <div class="row band-member-div">
+      <div class="col-md-4">
+        <img class="featurette-image img-circle img-responsive pull-left" src="{{ site.baseurl }}/assets/images/band/sanju-moses.jpg" >
+      </div>
+      <div class="col-md-8 band-member-text">
+        <h2 class="featurette-heading">Sanju Moses
+          <span class="text-muted">&ndash; Bass Guitar</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+    </div>
+    <div class="row band-member-div">
+      <div class="col-md-4">
+        <img class="featurette-image img-circle img-responsive pull-left" src="{{ site.baseurl }}/assets/images/band/alex-varghese.jpg" >
+      </div>
+      <div class="col-md-8 band-member-text">
+        <h2 class="featurette-heading">Alex Varghese
+          <span class="text-muted">&ndash; Drums, Percussion &amp; Backing Vocals</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+    </div>
+    <div class="row band-member-div">
+      <div class="col-md-4">
+        <img class="featurette-image img-circle img-responsive pull-left" src="{{ site.baseurl }}/assets/images/band/david-hanoch.jpg" >
+      </div>
+      <div class="col-md-8 band-member-text">
+        <h2 class="featurette-heading">David Hanoch
+          <span class="text-muted">&ndash; Keyboards</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+    </div>
+    <div class="row band-member-div">
+      <div class="col-md-4">
+        <img class="featurette-image img-circle img-responsive pull-left" src="{{ site.baseurl }}/assets/images/band/jonathan-edward.jpg" >
+      </div>
+      <div class="col-md-8 band-member-text">
+        <h2 class="featurette-heading">Jonathan Edward
+          <span class="text-muted">&ndash; Guitars &amp; Backing Vocals</span>
+        </h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+    </div>
+    <div class="row band-member-div">
+      <div class="col-md-4">
+        <img class="featurette-image img-circle img-responsive pull-left" src="{{ site.baseurl }}/assets/images/band/adarsh-varghese.jpg" >
+      </div>
+      <div class="col-md-8 band-member-text">
+        <h2 class="featurette-heading">Adarsh Varghese
+          <span class="text-muted">&ndash; Vocals &amp; Guitars</span>
         </h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
       </div>
     </div>
   </div>
 </div>
+
