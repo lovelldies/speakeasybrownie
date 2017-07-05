@@ -37,7 +37,7 @@ layout: default
 </section>
 
 <section class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom" id="image1-2">
-  <div><img src="assets/images/the-sound.jpg" class="mbr-figure__img"></div>
+  <div style="text-align:center;"><img style="max-width:1200px;" src="assets/images/the-sound.jpg" class="mbr-figure__img"></div>
 </section>
 
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="msg-box3-e" style="background-color: rgb(0, 0, 0); color: #fff;">
@@ -64,11 +64,10 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
         <div class="clearfix"></div>
     </div>
 </section>
-
 <span id="band"></span>
 <section class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom" id="image1-2" style="background-color: #f8f8f8;    padding-bottom: 50px;margin-top:50px;">
   <div style="padding-top: 50px;
-    background: white;"><img src="assets/images/the-band.jpg" class="mbr-figure__img"></div>
+    background: white;text-align:center;"><img style="max-width:1200px;" src="assets/images/the-band.jpg" class="mbr-figure__img"></div>
   <div class="mbr-buttons mbr-buttons--auto-align btn-inverse" style="
     text-align: center;
     padding: 50px 0;
@@ -90,7 +89,7 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
 {% include home-gallery.html %}
 
 <section class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom" id="image1-g" style="margin:50px 0;">
-  <div><img src="assets/images/the-name.jpg" class="mbr-figure__img"></div>  
+  <div style="text-align:center;"><img style="max-width:1200px;" src="assets/images/the-name.jpg" class="mbr-figure__img"></div>  
 </section>
 
 <section class="mbr-section mbr-section--relative" id="lyrics" style="background-color: rgb(255, 255, 255);border-top: 1px solid #000;">
@@ -107,7 +106,22 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
             </div>
           </div>
           <div class="mbr-section__container mbr-section__container--middle">
-            <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">Lorem Ipsum doler sit amet.</div>
+          <style type="text/css">
+.lyrics {
+  text-align: left;
+}
+.lyrics a {
+  text-decoration:none;
+}
+.lyricsh2 a:hover {
+  text-decoration:none;
+}
+</style>
+      <ul class="lyrics">
+      {% for post in site.posts %}
+        <h2><li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li></h2>
+      {% endfor %}
+      </ul>
           </div>
           <div class="mbr-section__container">
             <div class="mbr-buttons mbr-buttons--auto-align btn-inverse"><a class="mbr-buttons__btn btn btn-lg btn-primary" href="lyrics/">VIEW ALL</a></div>
@@ -121,10 +135,10 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="connect" style="background-color: rgb(0, 0, 0);">
   <div class="mbr-section__container container">
     <div class="mbr-header mbr-header--inline row" style="padding-top: 54.4px; padding-bottom: 54.4px;">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <h3 class="mbr-header__text">CONNECT WITH US</h3>
       </div>
-      <div class="mbr-social-icons mbr-social-icons--style-1 col-sm-8"> <a class="mbr-social-icons__icon socicon-bg-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/SpeakEasyBrownie"><i class="socicon socicon-facebook"></i></a>  <a class="mbr-social-icons__icon socicon-bg-youtube" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCdo0lbOpWP_3s7rYHLSHaHw"><i class="socicon socicon-youtube"></i></a> <a class="mbr-social-icons__icon socicon-bg-instagram" title="Instagram" target="_blank" href="https://www.instagram.com/speakeasybrownie/"><i class="socicon socicon-instagram"></i></a>      <a class="mbr-social-icons__icon socicon-bg-android" title="Google Play" target="_blank" href="https://soundcloud.com/speakeasybrownie"><i class="socicon socicon-soundcloud"></i></a></div>
+      <div class="mbr-social-icons mbr-social-icons--style-1 col-sm-6"> <a class="mbr-social-icons__icon socicon-bg-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/SpeakEasyBrownie"><i class="socicon socicon-facebook"></i></a>  <a class="mbr-social-icons__icon socicon-bg-youtube" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCdo0lbOpWP_3s7rYHLSHaHw"><i class="socicon socicon-youtube"></i></a> <a class="mbr-social-icons__icon socicon-bg-instagram" title="Instagram" target="_blank" href="https://www.instagram.com/speakeasybrownie/"><i class="socicon socicon-instagram"></i></a>      <a class="mbr-social-icons__icon socicon-bg-android" title="Google Play" target="_blank" href="https://soundcloud.com/speakeasybrownie"><i class="socicon socicon-soundcloud"></i></a></div>
     </div>
   </div>
 </section>

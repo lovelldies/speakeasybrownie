@@ -1,10 +1,18 @@
 ---
 layout: default
-title: Lyrics!
-description: Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+title: Lyrics
 bgimg: slide3.jpg
 permalink: /lyrics/
 ---
+
+<style type="text/css">
+h2 a {
+  text-decoration:none;
+}
+h2 a:hover {
+  text-decoration:none;
+}
+</style>
 
 <div id="lyrics">
   <div class="jumbotron" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.bgimg }}');">
@@ -16,13 +24,11 @@ permalink: /lyrics/
 
   <div class="container" style="margin-bottom: 50px;">
     <div class="row">
+      <ul>
       {% for post in site.posts %}
-      <div class="col-md-4" style="padding-bottom: 50px;">
-        <h2>{{ post.title }}</h2>
-        <p style="margin:20px 0;">{{ post.description }}</p>
-        <p><a class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}" role="button">View &raquo;</a></p>
-      </div>
+        <h2><li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li></h2>
       {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
