@@ -275,6 +275,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.mbr-gallery .mbr-gallery-item > a {
+  border: 1px solid #432615;
+  background-color: #432615;
+}
+
+.btn-inverse .btn-default:hover {
+  background-color: #c49a6c;
+}
 
 @media only screen and (max-width : 479px) {
   #header4-0 H1 {

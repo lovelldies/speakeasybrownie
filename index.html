@@ -77,23 +77,8 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
 "><a class="mbr-buttons__btn btn btn-lg btn-primary" href="band/">MEET THE MEMBERS</a></div>
 </section>
 
-<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="gallery" style="background-color: rgb(67, 38, 21); color: #fff;padding-top: 50px;">
-  <div class="mbr-section__container container mbr-section__container--isolated" style="padding-top: 62px; padding-bottom: 62px;">
-    <div class="mbr-header mbr-header--wysiwyg row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <h3 class="mbr-header__text">PHOTO GALLERY</h3>      
-      </div>
-    </div>
-  </div> 
-</section>
 
-{% include home-gallery.html %}
-
-<section class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom" id="image1-g" style="margin:50px 0;">
-  <div style="text-align:center;"><img style="max-width:1200px;" src="assets/images/the-name.jpg" class="mbr-figure__img"></div>  
-</section>
-
-<section class="mbr-section mbr-section--relative" id="lyrics" style="background-color: rgb(255, 255, 255);border-top: 6px solid rgb(200, 150, 113);">
+<section class="mbr-section mbr-section--relative" id="lyrics"  style="background-color: rgb(67, 38, 21); color: #fff;"">
   <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
     <div class="row">
       <div class="mbr-box mbr-box--fixed mbr-box--adapted">
@@ -113,9 +98,11 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
 }
 .lyrics a {
   text-decoration:none;
+  color: #c49a6c;
 }
-.lyricsh2 a:hover {
+.lyrics a:hover {
   text-decoration:none;
+  color: #fff;
 }
 </style>
       <ul class="lyrics">
@@ -125,13 +112,19 @@ var _EPYT_ = {"ajaxurl":"http:\/\/adarshvarghese.com\/wp-admin\/admin-ajax.php",
       </ul>
           </div>
           <div class="mbr-section__container">
-            <div class="mbr-buttons mbr-buttons--auto-align btn-inverse"><a class="mbr-buttons__btn btn btn-lg btn-primary" href="lyrics/">VIEW ALL</a></div>
+            <div class="mbr-buttons mbr-buttons--auto-align btn-inverse"><a class="mbr-buttons__btn btn btn-lg btn-primary" style="border: 1px solid white; background: #c49a6c;" href="lyrics/">VIEW ALL</a></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<section class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom" id="image1-g" style="margin:50px 0;">
+  <div style="text-align:center;"><img style="max-width:1200px;" src="assets/images/the-name.jpg" class="mbr-figure__img"></div>  
+</section>
+
+
 
 <section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="connect" style="background-color:rgb(67, 38, 21);">
   <div class="mbr-section__container container">
