@@ -17,7 +17,7 @@ title: SpeakEasy Brownie
 email: lovelldies@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An Indie band from India.
-baseurl: "/speakeasybrownie" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: lovelldies
 github_username:  lovelldies
 
