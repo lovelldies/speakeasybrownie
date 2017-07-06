@@ -196,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header4-0 H1 {
-  font-size: 20rem;
   line-height: 10rem;
   text-align: center;
   font-family: 'TrashHand', sans-serif;
@@ -273,4 +272,69 @@ h1, h2, h3, h4, h5, h6 {
 }
 #dropdown-menu-j .navbar-toggler {
   color: #ffffff;
+}
+
+
+
+@media only screen and (max-width : 479px) {
+  #header4-0 H1 {
+    font-size: 6rem;
+    line-height: 3rem;
+  }
+  #connect .mbr-header__text, #connect .mbr-social-icons {
+    text-align: center;
+  }
+  .band-member-div {
+    padding: 0 10%;
+  }
+  .band-member-text {
+    text-align: center;
+  }
+  .band-member-div .featurette-image {
+    margin-bottom: 20px;
+  }
+  #dropdown-menu-j .navbar-toggler {
+    margin-top: 13px;
+  }
+  .navbar-dropdown .navbar-brand {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  .band-member-div {
+    padding: 0 10%;
+  }
+  .band-member-text {
+    text-align: center;
+  }
+  .band-member-div .featurette-image {
+    margin-bottom: 20px;
+  }
+  #header4-0 H1 {
+    font-size: 13rem;
+    line-height: 7rem;
+  }
+  #connect .mbr-header__text, #connect .mbr-social-icons {
+    text-align: center;
+  }
+  .nav > li > a {
+    padding: 3px;
+  }
+}
+
+@media only screen and (min-width : 768px)  and (max-width : 1199px) {
+  #header4-0 H1 {
+    font-size: 13rem;
+    line-height: 7rem;
+  }
+  #connect .mbr-header__text, #connect .mbr-social-icons {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+    #header4-0 H1 {
+      font-size: 20rem;
+  }
 }
