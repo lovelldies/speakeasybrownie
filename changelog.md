@@ -12,11 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changelog file to track changes.
 - 60px top margin for songs.
 - Jekyll exclusion rules.
+- Redirect strategy for /lyrics/* to redirect to /songs/*.
 
 ### Changed
 - About section text.
+- Lyrics to Songs.
 - Lyrics of "Try".
+- Lyrics of "Why So Serious?!".
 - Footer copyright year to 2019.
-
-### Removed
--
+- Music section renamed to videos.

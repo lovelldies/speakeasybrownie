@@ -5,30 +5,5 @@ bgimg: lyrics-banner.jpg
 permalink: /lyrics/
 ---
 
-<style type="text/css">
-h2 a {
-  text-decoration:none;
-}
-h2 a:hover {
-  text-decoration:none;
-}
-</style>
-
-<div id="lyrics">
-  <div class="jumbotron" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.bgimg }}');">
-    <div class="container">
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.description }}</p>
-    </div>
-  </div>
-
-  <div class="container" style="margin-bottom: 50px;">
-    <div class="row">
-      <ul>
-      {% for post in site.posts %}
-        <h2><li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li></h2>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+<meta http-equiv="refresh" content="0; url=/songs/">
+<link rel="canonical" href="//speakeasybrownine.com/songs/" />

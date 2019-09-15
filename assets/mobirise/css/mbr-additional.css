@@ -9,7 +9,10 @@
 .chorus {
   font-weight: 500;
 }
-#lyrics .jumbotron,
+.italic {
+  font-style: italic;
+}
+#songs .jumbotron,
 #band .jumbotron {
   background-position: center center;
   background-repeat: no-repeat;
