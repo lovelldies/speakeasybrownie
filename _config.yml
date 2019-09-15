@@ -30,3 +30,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: /:categories/:title
+exclude: [
+  changelog.md,
+  README.md
+]
