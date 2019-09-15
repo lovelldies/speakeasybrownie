@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Playlist on homepage.
+- About text.
 
 ### Added
 - Embedded video on "Try".
