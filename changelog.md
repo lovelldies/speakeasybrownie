@@ -22,3 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Footer copyright year to 2019.
 - Music section renamed to videos.
 - Displaying only songs belonging to the "song" category.
+
+### Fixed
+- Missing banner image on "Try".
