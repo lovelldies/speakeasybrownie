@@ -1,6 +1,6 @@
 {
   "name": "speakeasybrownie",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Speakeasy Brownie Website",
   "main": "index.js",
   "scripts": {
