@@ -1,0 +1,31 @@
+{
+  "name": "speakeasybrownie",
+  "version": "1.0.2",
+  "description": "The Speakeasy Brownie Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve",
+    "build": "jekyll build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovelldies/speakeasybrownie.git"
+  },
+  "keywords": [
+    "speakeasy",
+    "brownie",
+    "website",
+    "jekyll",
+    "speakeasybrownie",
+    "band",
+    "indie",
+    "india"
+  ],
+  "author": "Lovell D'souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovelldies/speakeasybrownie/issues"
+  },
+  "homepage": "https://github.com/lovelldies/speakeasybrownie#readme"
+}
