@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2019-09-25
+
+### Added
+- Links to Spotify, Apple Music and Googl Play Music.
+
 ## [1.0.3] - 2019-09-16
 
 ### Added

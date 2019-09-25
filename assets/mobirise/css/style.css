@@ -1204,15 +1204,27 @@ html {
   height: 56px;
   line-height: 61px;
   margin: 0 10px 13px 0;
+  padding: 10px;
   position: relative;
   text-align: center;
+  text-decoration: none;
   width: 56px;
 }
 .mbr-social-icons__icon:hover {
   color: #fff;
+  text-decoration: none;
 }
 .mbr-social-icons--style-1 .mbr-social-icons__icon:hover {
   background: #252525 !important;
+}
+.socicon-bg-spotify {
+  background: #7bb342;
+}
+.socicon-bg-apple {
+  background: #B9BFC1;
+}
+.socicon-bg-googleplaymusic {
+  background: #FF5722;
 }
 .mbr-contacts {
   color: #9c9c9c;
