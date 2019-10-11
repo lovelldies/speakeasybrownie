@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2019-10-11
+
+- Added banner image, soundcloud player and updated "Try".
+
 ## [1.0.4] - 2019-09-25
 
 ### Added
