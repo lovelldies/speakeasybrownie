@@ -8,8 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.5] - 2019-10-11
 
-- Added banner image, soundcloud player and updated "Try" and "Why So Serious?!"
+### Added
+- Banner image, soundcloud player and updated "Try" and "Why So Serious?!"
 - Made "Fly Away" the third song in the list.
+- Music section on homepage with soundcloud player.
 
 ## [1.0.4] - 2019-09-25
 
