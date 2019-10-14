@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.6] - 2019-10-14
 - Banner image, soundcloud player and updated "Fly Away".
+- Updated "Name" and "Sound" section images.
 
 ## [1.0.5] - 2019-10-11
 
