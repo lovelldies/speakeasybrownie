@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.8] - 2019-11-26
+- Updated lyrics of "Fly Away".
+- Updated "Name" and "Sound" section images.
+
 ## [1.0.7] - 2019-11-26
 - Updated banner images and soundcloud player for "Fly Away" and "Why So Serious?!"
 
