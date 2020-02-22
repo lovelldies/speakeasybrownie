@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.9] - 2020-02-21
+
+### Changed
+- Footer copyright year to 2019.
+- Lyrics of "Revving To Forever".
+
 ## [1.0.8] - 2019-11-26
 - Updated lyrics of "Fly Away".
 - Updated "Name" and "Sound" section images.
